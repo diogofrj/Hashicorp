@@ -1,4 +1,4 @@
-Hashicorp.code-workspace
+hashi.code-workspace
 Terraform/*/.terraform*
 Terraform/*/terraform.*
 TEMPLATEREADME*.md

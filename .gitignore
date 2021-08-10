@@ -1,4 +1,9 @@
 Hashicorp.code-workspace
 Terraform/*/.terraform*
 Terraform/*/terraform.*
-TEMPLATEREADME.md
+TEMPLATEREADME*.md
+Vault/SECRET.MD
+*/.terraform.lock.hcl
+*.tfstate*
+*/.terraform/providers/*
+

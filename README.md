@@ -1,3 +1,4 @@
+[![Board Status](https://dev.azure.com/diogofrj/cc5457da-ef33-465e-a39f-3bda4756ed82/c920669a-38b7-41bc-9ae1-326048e5eeec/_apis/work/boardbadge/43922899-6e06-49d5-92cd-25ec681e0e2f)](https://dev.azure.com/diogofrj/cc5457da-ef33-465e-a39f-3bda4756ed82/_boards/board/t/c920669a-38b7-41bc-9ae1-326048e5eeec/Microsoft.RequirementCategory)
 
 # Repositorio de estudos para a certifiação de Terraform da Hashicorp.
 

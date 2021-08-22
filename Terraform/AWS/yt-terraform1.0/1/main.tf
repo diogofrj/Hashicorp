@@ -1,0 +1,23 @@
+provider "aws" {
+  region = "us-east-2"
+}
+
+resource "aws_s3_bucket" "default" {
+  bucket = "simple-bucket-diogofernandesnew"
+  acl    = "private"
+
+  tags = { 
+    Name = "Diogo Sample Bucket"
+    Environment = "Development"
+  }
+}
+
+output "bucket_fqdn" {
+  value       = aws_s3_bucket.default.bucket_domain_name
+  description = "FQDN of bucket"
+}
+
+output "bucket_domain" {
+  value       = aws_s3_bucket.default.id
+  description = "Bucket Name (aka ID)"
+}

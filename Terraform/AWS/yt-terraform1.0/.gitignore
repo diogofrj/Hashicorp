@@ -1,0 +1,4 @@
+*.terraform
+terraform.tfstate*
+guia*
+.terraform.lock.hcl
